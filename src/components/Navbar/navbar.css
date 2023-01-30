@@ -1,0 +1,37 @@
+/* Styling Navbar for desktop */
+@media screen and (max-width:1440px) {
+    nav{
+        margin-inline: auto;
+        margin: 0rem 7rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 6.5rem;
+    }
+}
+
+/* Styling Navbar for tablet */
+
+@media screen and (max-width: 800px) {
+    nav{
+        margin-inline: auto;
+        margin: 0rem 2rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 6rem;
+    }
+}
+
+/* Styling navbar for mobile */
+
+@media screen and (max-width:500px) {
+    nav{
+        margin-inline: auto;
+        margin: 0rem 1rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 5rem;
+    }
+}

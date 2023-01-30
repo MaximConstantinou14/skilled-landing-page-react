@@ -1,0 +1,19 @@
+:root{
+    /* Solid Colors */
+    --purple: hsl(234, 25%, 52%);
+    --dark-blue: hsl(233, 54%, 16%);
+    --gray: hsl(232, 10%, 56%);
+    --pink: hsl(341, 92%, 62%);
+    --light-pink: hsl(341, 100%, 83%);
+    --white: hsl(0, 0%, 100%);
+    /* Gradient colors */
+    --pink-gradient: linear-gradient(180deg, hsl(13, 100%, 64%), hsl(322, 87%, 55%));
+    --purple-gradient: linear-gradient(180deg, hsl(237, 100%, 64%), hsl(322, 87%, 55%));
+    /* Font sizes */
+    --font-56: 3.5rem;
+    --font-40: 2.5rem;
+    --font-32: 2rem;
+    --font-24: 1.5rem;
+    --font-18: 1.125rem;
+    --font-16: 1rem;
+}

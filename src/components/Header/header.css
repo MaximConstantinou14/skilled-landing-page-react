@@ -1,0 +1,133 @@
+/* Styling Navbar for desktop */
+
+@media screen and (max-width: 1440px) {
+
+    header{
+        background-image: url(../../assets/image-hero-tablet@2x.png);
+        background-position: left 46rem  top -8rem;
+        background-repeat: no-repeat;
+        background-size: 58.558rem 61.977rem;
+        margin-bottom: 10rem;
+        height: 55rem;
+    }
+
+    main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header_top{
+        margin-inline: auto;
+        margin: 6.188rem 7rem;
+        height: 22.438rem;
+        width: 28.563rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    h1{
+        color: var(--dark-blue);
+        font-size: var(--font-56);
+    }
+
+    p{
+        color: var(--gray);
+        font-size: var(--font-18);
+        line-height: 1.625rem;
+    }
+}
+
+/* Styling Navbar for tablet */
+
+@media screen and (max-width: 800px) {
+
+    header{
+        background-image: url(../../assets/image-hero-tablet@2x.png);
+        background-position: left 23rem  top -3rem;
+        background-repeat: no-repeat;
+        background-size: 40rem 40.044rem;
+        margin-bottom: 0rem;
+        height: 40rem;
+    }
+
+    main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header_top{
+        margin-inline: auto;
+        margin: 6.188rem 2rem;
+        height: 17.75rem;
+        width: 24.875rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    h1{
+        color: var(--dark-blue);
+        font-size: var(--font-40);
+    }
+
+    p{
+        color: var(--gray);
+        font-size: var(--font-16);
+        line-height: 1.625rem;
+    }
+}
+
+/* Styling navbar for mobile */
+
+@media screen and (max-width:500px) {
+
+    header{
+        background-image: none;
+        margin-bottom: 0rem;
+        height: 50rem;
+    }
+
+    main{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .header_top{
+        margin-inline: auto;
+        margin: 2.875rem 1rem;
+        height: 17.688rem;
+        width: calc(100vw - 2rem);
+        display: flex;
+        align-self: flex-start;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    h1{
+        color: var(--dark-blue);
+        font-size: var(--font-40);
+    }
+
+    p{
+        color: var(--gray);
+        font-size: var(--font-16);
+        line-height: 1.625rem;
+    }
+
+    .header_bottom{
+        height: 18.813rem;
+        width: 20.438rem;
+        background-image: url(../../assets/image-hero-mobile@2x.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}

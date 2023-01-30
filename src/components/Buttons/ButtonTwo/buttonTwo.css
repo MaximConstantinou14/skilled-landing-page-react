@@ -1,0 +1,42 @@
+/* Styling button two for desktop */
+@media screen and (max-width:1440px) {
+    .btn_two{
+        width: 10.438rem;
+        height: 3.5rem;
+        background-image: var(--pink-gradient);
+        color: white;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: bold;
+        font-size: 1.125rem;
+        transition: 0.2s ease-in-out;
+    }
+}
+
+/* Styling button two for tablet */
+
+@media screen and (max-width:800px) {
+    .btn_two{
+        width: 8.75rem;
+        height: 3rem;
+        background-image: var(--pink-gradient);
+        color: white;
+        border: none;
+        border-radius: 50px;
+        cursor: pointer;
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-weight: bold;
+        font-size: 1rem;
+    }
+}
+
+/* Button on mobile device stays the same as tablet, css inherited. */
+
+/* Button two hover state */
+
+.btn_two:hover{
+    opacity: 0.5;
+    transition: ease-in-out 0.2s;
+}

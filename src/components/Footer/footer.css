@@ -1,0 +1,46 @@
+/* Styling footer for desktop */
+
+@media screen and (max-width: 1440px) {
+    footer{
+        width: 100vw;
+        height: 7.5rem;
+        background-color: var(--dark-blue);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+    }
+
+    .footer_contents{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: calc(100vw - 20.625rem);
+        height: calc(100% - 4rem);
+    }   
+}
+
+/* Styling footer for tablet */
+
+@media screen and (max-width: 800px) {
+
+    footer{
+        margin-top: 0rem;
+    }
+
+    .footer_contents{
+        width: calc(100vw - 4.938rem);
+        height: calc(100% - 4.5rem);
+    }   
+}
+
+/* Styling footer for mobile */
+
+@media screen and (max-width: 500px) {
+    
+    .footer_contents{
+        width: calc(100vw - 2rem);
+    }
+
+}
+
